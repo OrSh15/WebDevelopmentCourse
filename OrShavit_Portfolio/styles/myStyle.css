@@ -1,0 +1,107 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+    font-family: Calibri;
+    background-color: #d4c1c1;
+
+}
+
+header {
+    width: 100%;
+   background-color: #f9e2d8;
+}
+
+#MainImage {
+    width: 100%;
+}
+
+#AboutMe {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9e2d8;
+}
+
+h1{
+    font-size:36px;
+}
+
+#AboutMe p{
+    padding:20px;
+    font-size:20px;
+}
+
+#Allpictures {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.Column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.imageContainer {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #ccaaa2;
+    position: relative;
+    bottom: 150px;
+    width: 300px;
+    right: -58px;
+}
+
+.ImageText {
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    position:center;
+}
+
+.imageContainer:hover .image {
+    opacity: 0.3;
+}
+
+.imageContainer:hover .middle {
+    opacity: 1;
+}
+
+footer{
+    text-align:center;
+    width:100%;
+    clear:both;
+}
+
+footer p {
+        display: inline-block;
+        font-size: 30px;
+        margin-left: 20px;
+        position: relative;
+        bottom: 10px;
+}
+
+footer img{
+    width:50px;
+    height:50px;
+}
