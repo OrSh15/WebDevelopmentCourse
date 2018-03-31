@@ -1,0 +1,100 @@
+﻿body {
+    direction: rtl;
+    background-image: url(../img/stefan-stefancik-257625-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+ul,li{
+
+    list-style:none;
+}
+
+h1{
+    font-size:200%;
+}
+
+h2{
+    font-size:170%;
+}
+
+#MainContent > section > h3 {
+    font-size: 150%;
+}
+
+#Container {
+    background-color: #000000ba;
+}
+
+header {
+    background-color: #e76149;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 50px;
+    padding: 20px;
+    color: white;
+}
+
+#MainContent {
+    width: 960px;
+    margin: 0 auto;
+}
+
+    #MainContent > section > a {
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+section {
+    color: white;
+    font-size: 120%;
+    padding: 41px;
+    line-height: 52px;
+    text-align: center;
+}
+
+#MainContent > section > ul > li {
+    background-color: white;
+    color: #1bacbd;
+    border-radius: 34px;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    vertical-align: unset;
+    display: inline-block;
+    margin: 14px;
+    font-size: 21px;
+}
+
+form {
+    background-color: #1bacbde0;
+    padding: 20px;
+    border-radius: 31px;
+    line-height: 20px;
+    color: white;
+    margin-top: 20px;
+    width: 536px;
+    margin: 0 auto;
+}
+
+input {
+    padding: 12px;
+}
+
+#MainContent > form > label {
+    padding: 5px;
+    display: grid;
+}
+
+#SendForm {
+    margin-top: 10px;
+    width: 174px;
+    position: relative;
+    color: white;
+    background-color: #e76149;
+    text-decoration: none;
+}
