@@ -1,0 +1,201 @@
+body {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+}
+
+body .InnerPage {
+background-color: #fff;
+}
+
+h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    font-size: 50pt;
+    color: white;
+}
+.container{
+    max-width:960px;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+a:hover {
+    color: black;
+    opacity: 0.7;
+}
+
+/*HomePageDesign*/
+
+#IndexBack {
+    background-image: url(../images/Background2.jpg);
+    height:720px;
+    background-repeat: no-repeat;
+}
+
+#IndexBack > div > section > div > h2 > a > i {
+    vertical-align: text-bottom;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes example {
+    0% {
+        left: 0px;
+    }
+    50%{
+        left:30px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+/*all Inner Pages Design*/
+
+.InnerPage {
+    background-image: none;
+}
+
+header.InnerPage{
+    background-color: #8693FF;
+}
+
+/*nav Design*/
+
+nav a:active{
+    text-decoration:underline;
+}
+
+.InnerPage nav a {
+    color: white;
+}
+
+.InnerPage nav a:hover {
+    color:black;
+}
+
+.current {
+    border-bottom: 3px solid white;
+}
+
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+}
+
+/*Styling inner paragraphs*/
+
+section {
+    margin: 0 auto;
+    color: #8693FF;
+    padding: 30px;
+}
+
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section p {
+margin: 0 0 10px;
+line-height: 26px;
+color: #43424d;
+}
+
+/*Styling Inner Titles*/
+
+.InnerPage h1 {
+    font-size: 38pt;
+    color: #43424d;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.InnerPage h2 {
+    font-size: 20pt;
+    color: #8B7AE8;
+    font-weight: bold;
+    line-height: 34px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+/*image Styling*/
+
+.SmallImg {
+    width: 200px;
+    -webkit-transition: width 1s ease-out;
+    -moz-transition: width 1s ease-out;
+    -ms-transition: width 1s ease-out;
+    -o-transition: width 1s ease-out;
+    transition: width 1s ease-out;
+}
+
+.SmallImg:hover {
+    width: 220px;
+    -webkit-transition: width 1s ease-out;
+    -moz-transition: width 1s ease-out;
+    -ms-transition: width 1s ease-out;
+    -o-transition: width 1s ease-out;
+    transition: width 1s ease-out;
+    -webkit-box-shadow: 1px 1px 10px 5px #D4D4D4;
+    box-shadow: 1px 1px 10px 5px #D4D4D4;
+}
+
+.BigImg {
+    width: 300px;
+    -webkit-transition: width 1s ease-out;
+    -moz-transition: width 1s ease-out;
+    -ms-transition: width 1s ease-out;
+    -o-transition: width 1s ease-out;
+    transition: width 1s ease-out;
+}
+
+.BigImg:hover {
+    width: 330px;
+    -webkit-transition: width 1s ease-out;
+    -moz-transition: width 1s ease-out;
+    -ms-transition: width 1s ease-out;
+    -o-transition: width 1s ease-out;
+    transition: width 1s ease-out;
+    -webkit-box-shadow: 1px 1px 10px 5px #D4D4D4;
+    box-shadow: 1px 1px 10px 5px #D4D4D4;
+}
+
+.Exit {
+    font-size:40px;
+    float:right;
+}
+
+.Exit:hover a{
+    text-decoration:none;
+}
+
+div.PictureFull img {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    -webkit-box-shadow: 2px 2px 10px 2px #A1A1A1;
+    box-shadow: 2px 2px 10px 2px #A1A1A1;
+    clear:both;
+}
+div.PictureFull img.Visual {
+    width:700px;
+}
+ 
+iframe.container{
+    border:none;
+    width:960px;
+    height:720px;
+}
+
