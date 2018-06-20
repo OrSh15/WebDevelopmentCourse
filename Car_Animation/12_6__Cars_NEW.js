@@ -3141,7 +3141,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/12_6__Cars_NEW_atlas_.png?1529490295899", id:"12_6__Cars_NEW_atlas_"}
+		{src:"images/12_6__Cars_NEW_atlas_.png?1529490455146", id:"12_6__Cars_NEW_atlas_"}
 	],
 	preloads: []
 };
