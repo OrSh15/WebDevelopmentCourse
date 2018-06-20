@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"12_6__Cars_NEW_atlas_", frames: [[52,196,50,50],[0,0,96,96],[0,196,50,50],[0,98,96,96],[98,66,50,50],[104,170,50,50],[98,118,50,50],[98,0,64,64]]}
+		{name:"12_6__Cars_NEW_atlas_", frames: [[98,66,50,50],[0,0,96,96],[104,170,50,50],[0,98,96,96],[98,118,50,50],[0,196,50,50],[52,196,50,50],[98,0,64,64]]}
 ];
 
 
@@ -3141,7 +3141,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/12_6__Cars_NEW_atlas_.png?1529490161040", id:"12_6__Cars_NEW_atlas_"}
+		{src:"images/12_6__Cars_NEW_atlas_.png?1529490295899", id:"12_6__Cars_NEW_atlas_"}
 	],
 	preloads: []
 };
