@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"12_6__Cars_NEW_atlas_", frames: [[0,196,50,50],[0,0,96,96],[104,170,50,50],[0,98,96,96],[98,118,50,50],[52,196,50,50],[98,66,50,50],[98,0,64,64]]}
+		{name:"12_6__Cars_NEW_atlas_", frames: [[52,196,50,50],[0,0,96,96],[0,196,50,50],[0,98,96,96],[98,66,50,50],[104,170,50,50],[98,118,50,50],[98,0,64,64]]}
 ];
 
 
@@ -2478,7 +2478,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,93,56);
 	this.shape_37.setTransform(611.7,525.8,0.387,0.387);
 
 	this.shape_38 = new cjs.Shape();
-	this.shape_38.graphics.f().s("#000000").ss(2).p("AADCWQhAAAgtgtQgugtAAg+QAAhAAugsQAtgtBAAAQBAAAAuAtQAtAsAABAQAAA+gtAtQguAthAAAgAAAjWQhZAAhAA/QhAA/AABYQAABZBAA/QBAA/BZAAQBbAAA/g/QBAg/AAhZQAAhYhAg/Qg/g/hbAAg");
+	this.shape_38.graphics.f().s("#000000").ss(2).p("AAAjWQhZAAhAA/QhAA/AABYQAABZBAA/QBAA/BZAAQBbAAA/g/QBAg/AAhZQAAhYhAg/Qg/g/hbAAgAADCWQhAAAgtgtQgugtAAg+QAAhAAugsQAtgtBAAAQBAAAAuAtQAtAsAABAQAAA+gtAtQguAthAAAg");
 	this.shape_38.setTransform(611.6,525.9,0.387,0.387);
 
 	this.shape_39 = new cjs.Shape();
@@ -2494,7 +2494,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,93,56);
 	this.shape_41.setTransform(650,526.1,0.387,0.387);
 
 	this.shape_42 = new cjs.Shape();
-	this.shape_42.graphics.f().s("#000000").ss(2).p("AADCWQhAAAgtgtQgugsAAg/QAAg/AugtQAtgtBAAAQBAAAAuAtQAtAtAAA/QAAA/gtAsQguAthAAAgAAAjWQhZAAhAA/QhAA/AABYQAABaBAA+QBAA/BZAAQBbAAA/g/QBAg/AAhZQAAhYhAg/Qg/g/hbAAg");
+	this.shape_42.graphics.f().s("#000000").ss(2).p("AAAjWQhZAAhAA/QhAA/AABYQAABaBAA+QBAA/BZAAQBbAAA/g/QBAg/AAhZQAAhYhAg/Qg/g/hbAAgAADCWQhAAAgtgtQgugsAAg/QAAg/AugtQAtgtBAAAQBAAAAuAtQAtAtAAA/QAAA/gtAsQguAthAAAg");
 	this.shape_42.setTransform(649.9,526.3,0.387,0.387);
 
 	this.shape_43 = new cjs.Shape();
@@ -2901,7 +2901,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,93,56);
 	this.shape_137.setTransform(279.4,15.8,0.387,0.387);
 
 	this.shape_138 = new cjs.Shape();
-	this.shape_138.graphics.f().s("#F26321").p("ABCB5IAAjxIiDAAIAADxgAixjPIFjAAIAAGfIljAAg");
+	this.shape_138.graphics.f().s("#F26321").p("AixjPIFjAAIAAGfIljAAgABCB5IAAjxIiDAAIAADxg");
 	this.shape_138.setTransform(266.2,19.3,0.387,0.387);
 
 	this.shape_139 = new cjs.Shape();
@@ -3141,7 +3141,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/12_6__Cars_NEW_atlas_.png?1529489546528", id:"12_6__Cars_NEW_atlas_"}
+		{src:"images/12_6__Cars_NEW_atlas_.png?1529490161040", id:"12_6__Cars_NEW_atlas_"}
 	],
 	preloads: []
 };
