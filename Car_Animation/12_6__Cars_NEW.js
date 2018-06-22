@@ -1839,6 +1839,23 @@ p.nominalBounds = new cjs.Rectangle(0,0,93,56);
 // stage content:
 (lib._12_6__Cars_NEW = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
+	
+			WebFontConfig = {
+			google: {
+				families: ['Heebo'] //כאן בחרו את הפונט <-------------------
+			}
+		};
+		
+		//בפונקציה הזו אין לבצע שינויים, מייבאת את הפונט הרצוי
+		(function () {
+			var wf = document.createElement('script');
+			wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';	
+			wf.type = 'text/javascript';
+			wf.async = true;
+			var s = document.getElementsByTagName('script')[0];
+		
+			s.parentNode.insertBefore(wf, s);
+		})();
 
 	// timeline functions:
 	this.frame_0 = function() {
